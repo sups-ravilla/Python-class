@@ -39,7 +39,7 @@ while not valid:
             else:
                 print("You are allowed to purchase alcohol.")
 
-        valid = True  # End the loop after successful processing
+        valid = True  
 
     finally:
         print("Thank you for shopping here at our store and we hope the products we sell meet up to your expectations and we hope to see you again soon.")
