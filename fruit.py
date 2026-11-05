@@ -11,7 +11,7 @@ class fruit:
         print("The price of this fruit is", self.price)
         print("The taste of this fruit is", self.taste)
         print("The count of this fruit is", self.count)
-ob= fruit("Apple", "Red", "1.00", "Sweet", 4)
+ob= fruit("Apple", "Red", "1.00", "Sweet")
 total_cost = ob.price * ob.count            
 ob.intro()
 print("The total cost of the fruits is", total_cost)
